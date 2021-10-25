@@ -34,15 +34,16 @@ welcome:
   welcome:
     message: Welcome too Daily Code Buffer!!
 
-    management:
-      endpoints:
-        web:
-          exposure:
-            include: "*"
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
 
 ---
 
     spring:
+
       profiles: prod
       datasource:
         username: root
@@ -54,6 +55,8 @@ welcome:
         show-sql: 'true'
     welcome:
       message: Welcome too Daily Code Buffer!!
+
+
 
 ---
 
