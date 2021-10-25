@@ -1,0 +1,13 @@
+server:
+  port: '8082'
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/dcbapp
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome too Daily Code Buffer!!
